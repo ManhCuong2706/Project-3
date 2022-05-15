@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: serif;
+  box-sizing: border-box;
+}
+
+.header {
+}
+
+.header__menu {
+  font-family: sans-serif, 'Roboto Mono', monospace;
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0;
+}
+
+.header__item {
+  list-style: none;
+  text-decoration: none;
+  display: inline-block;
+  margin: 35px 0;
+}
+
+hr {
+  display: none;
+}
+.header__link {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgb(29, 28, 28);
+  padding: 10px 5px;
+  font-weight: bold;
+  font-size: 16px;
+}
+.header__link:hover {
+  color: rgba(29, 28, 28, 0.5);
+}
+
+.header__slider {
+  position: relative;
+  height: 500px;
+  width: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image: url(../image/lodging.png);
+}
+
+.slider__content {
+  position: absolute;
+  top: 130px;
+  color: #fff;
+  margin: 0 50px;
+}
+
+.slider__content h1 {
+  font-weight: bold;
+  font-size: 45px;
+  text-shadow: 0px 1px 3px #1a1919;
+}
+.slider__content p {
+  font-size: 18px;
+}
+
+.body {
+  background-color: #efefef;
+  padding: 40px 0px;
+}
+
+.body__img {
+  margin-bottom: 30px;
+  width: 100%;
+}
+.footer {
+  padding: 20px 0px;
+  background-color: #f7f7f7;
+}
+
+.footer__heading {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.footer__link {
+  color: #5bc9fc;
+  text-decoration: none;
+}
+
+.alignment {
+  margin: 0 40px;
+}
+
+.font--ss {
+  font-family: sans-serif;
+}
